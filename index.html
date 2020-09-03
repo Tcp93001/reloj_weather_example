@@ -4,23 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Nunito:wght@400;800&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Clima y Hora</title>
 </head>
 
 <body onload="mueveReloj()">
   <section class="content">
-    <div class="digits-container">
-      <div class="digits">
-        <p id="horas"></p>:
-        <p id="minutos"></p>:
-        <p id="segundos"></p>
-      </div>
-    </div>
+    <div id="digits-container" class="digits-container"></div>
     <div class="weather-container">
-      <div class="digits">
-
-      </div>
+      <div id="clima">Cargando...</div>
     </div>
   </section>
   <script src="app.js"></script>
