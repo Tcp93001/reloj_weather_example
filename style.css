@@ -1,0 +1,46 @@
+body {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+  line-height: 1;
+  background: linear-gradient(99deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 49%, rgba(0,135,162,1) 100%);
+  background-position: left;
+  background-size: contain;
+  height: 100vh;
+  color: #ececec;
+}
+
+
+.content {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.digits-container {
+  margin: 35px auto;
+  text-align: center;
+  width: 590px;
+}
+
+.digits {
+  font-size: 10rem;
+  font-weight: bold;
+  text-shadow: 2px 1px 3px #ececec;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weather-container {
+  margin: 35px auto;
+
+}
