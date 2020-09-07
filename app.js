@@ -2,6 +2,7 @@ let horas, minutos, segundos, momentoActual
 
 const mueveReloj = () => {
   momentoActual = new Date()
+  console.log('momentoActual ---- >', momentoActual)
   horas = momentoActual.getHours()
   minutos = momentoActual.getMinutes()
   segundos = momentoActual.getSeconds()
